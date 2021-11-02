@@ -296,3 +296,168 @@
     content: "";
     position: absolute;
 }
+
+
+
+/* --Benefit_Section--*/
+
+.history_bottom h5{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+/* --Helping_Hand_Section--*/
+
+.helping_border{
+    border-top: 1px solid #ddd;
+    margin-top: -5px;
+    padding-top: 50px;
+}
+
+.helping_hand_section{
+    background-color: #f8f9fa!important;
+    margin-top: 70px;
+    padding: 100px;
+}
+
+
+.helping_hand{
+
+}
+
+.hand_box{
+    text-align: center;
+    padding: 25px 60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 60px 0px #e9e9e9;
+    background: white;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.helping_hand_circle{
+    width: 100%;
+    height: 170px;
+    margin-top: -112px;
+    background: linear-gradient(
+45deg, black, transparent);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.helping_hand_icon{
+    margin-top: -30px;
+}
+.helping_hand_icon span{
+    color: red;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 50%;
+    background: white;
+    transition: 0.4s;
+}
+.helping_hand_icon span:hover{
+    background: red;
+    color: white;
+}
+.helping_hand_letter{
+    margin-top: 30px;
+}
+.helping_hand_letter h3{
+    margin-bottom: 15px;
+    font-family: "Impact", Times, serif;
+    letter-spacing: 2px;
+}
+.helping_hand_letter p{
+    font-weight: 500;
+    color: #ff4040;
+    font-size: 17px;
+}
+.hand_box:hover{
+    transform: translateY(-30px);
+}
+
+
+/* --About_Video_Section-- */
+
+.Video_Section{
+    background-color: #f8f9fa!important;
+    border-top: 1px solid #ddd;
+    margin-top: -40px;
+}
+.Video_left{
+    text-align: center;
+    margin-top: 50px;
+    height: 245px;
+    padding: 0px 30px;
+}
+.Video_left h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+}
+.Video_right{}
+.Video_right_inner{
+    padding: 138px 90px;
+}
+.Video_right_inner a{
+        padding: 20px;
+        background: red;
+        border-radius: 50%;
+        color: white;
+        font-size: 37px;
+        position: relative;
+        z-index: 99;
+        transition: 0.4s;
+}
+.Video_right_inner a:hover{
+    background: white;
+    color: red;
+}
+.Video_right_inner a::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -8px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    z-index: -1;
+    border-radius: 50%;
+    animation: name 1s infinite;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+.Video_right_inner a span{
+    font-size: 40px;
+}
+
+@keyframes name{
+    0%{
+        transform: scale(1);
+        background: red;
+        opacity: 0.8;
+    }
+    25%{
+        transform: scale(1.4);
+        background: red;
+        opacity: 0.6;
+    }
+    75%{
+        transform: scale(1.7);
+        background: red;
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(2);
+        background: red;
+        opacity: 0;
+    }
+    
+}
+
+
+
