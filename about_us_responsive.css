@@ -90,15 +90,15 @@
     }
 }
 
-@media(max-width:576px){
+@media(max-width:575px){
     
     .form_box {
-        right: -93px;
-        bottom: -103px;
+        right: -96px;
+        bottom: -101px;
     }
     .form_box input {
         padding: 2px 11px;
-        width: 160px;
+        width: 238px;
     }
 }
 
@@ -117,11 +117,11 @@
         padding: 10px 20px;
     }
     .form_box {
-        right: -69px;
+        right: -75px;
     }
     .form_box input {
         padding: 2px 11px;
-        width: 160px;
+        width: 240px;
     }
    
 }
@@ -140,8 +140,17 @@
     }
    
 }
+@media(max-width:375px){
 
-
+    .form_box {
+        right: -75px;
+    }
+    .form_box input {
+        padding: 2px 11px;
+        width: 230px;
+    }
+   
+}
 /* Banner Section */
 
 @media(max-width:425px){
@@ -474,4 +483,52 @@
         font-size: 30px;
     }
     
+}
+
+/*-----Donation_Section-----*/
+
+@media(max-width:1024px){
+    .donation_left_inner {
+        margin-top: 104px;
+    }
+}
+
+@media(max-width:991px){
+    .donation_left_inner img {
+        width: 50%;
+    }
+    .donation_left {
+        text-align: center;
+        margin-top: -100px;
+    }
+    .donation_right {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .donation_right_inner h2 {
+      margin-bottom: 30px;
+    }
+    .donation_right_inner a::after{
+        padding-top: 11px;
+       
+    }
+    .donation_right_inner :hover::after{
+        padding-top: 11px;
+        padding-left: 0px;
+    }
+}
+@media(max-width:575px){
+    .donation_left_inner img {
+        width: 60%;
+    }
+}
+@media(max-width:425px){
+    .donation_right_inner h2 {
+        font-size: 33px;
+    }
+}
+@media(max-width:375px){
+    .donation_left_inner img {
+        width: 70%;
+    }
 }
